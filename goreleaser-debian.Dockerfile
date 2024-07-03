@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:12.6
 RUN apt-get update && apt-get -y upgrade && apt-get install -y --no-install-recommends \
   libssl-dev \
   ca-certificates \
